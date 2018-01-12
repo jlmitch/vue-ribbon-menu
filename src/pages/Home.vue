@@ -1,6 +1,9 @@
 <template>
   <div>
     <ribbon-menu :menus="menus"/>
+    <div>
+      Home Page
+    </div>
   </div>
 </template>
 
@@ -11,8 +14,8 @@
     title: 'Tagging',
     menuItems: [{
       iconPath: '/static/icon.gif',
-      text: 'Tag Account',
-      url: 'hello',
+      text: 'Account',
+      url: 'account',
     }],
   }, {
     title: 'Trading',
