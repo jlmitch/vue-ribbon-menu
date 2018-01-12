@@ -1,14 +1,14 @@
 <template>
-  <ul class="menu">
-    <menu-item
-      v-for="({ text, iconPath, url }, index) in menuItems"
-      :key="index"
-      :text="text"
-      :iconPath="iconPath"
-      :url="url"
-    />
-    <div class="title">{{title}}</div>
-  </ul>
+    <ul class="menu">
+      <menu-item
+        v-for="({ text, iconPath, url }, index) in menuItems"
+        :key="index"
+        :text="text"
+        :iconPath="iconPath"
+        :url="url"
+      />
+      <div class="title">{{title}}</div>
+    </ul>
 </template>
 
 <script>

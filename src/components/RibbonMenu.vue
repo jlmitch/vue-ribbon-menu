@@ -1,4 +1,5 @@
 <template>
+  <div class="ribbon-menu-container">
     <div class="ribbon-menu">
         <menu-component
             v-for="({ menuItems, title }, index) in menus"
@@ -7,6 +8,7 @@
             :menuItems="menuItems"
         />
     </div>
+  </div>
 </template>
 
 <script>
@@ -22,14 +24,21 @@ export default {
 </script>
 
 <style scoped>
+    .ribbon-menu-container {
+      position: relative;
+      height: 60px;
+    }
+
     div.ribbon-menu {
         background-color: gray;
         box-sizing: border-box;
-        height: 60px;
         padding: 4px;
-        position: relative;
+        position: absolute;
         overflow: visible;
         text-align: left;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
     }
 </style>
-
