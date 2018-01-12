@@ -6,6 +6,8 @@ import Account from '@/pages/Account';
 
 Vue.use(Router);
 
+const menus = require('@/data/Data.json');
+
 export default new Router({
   mode: 'history',
   routes: [
@@ -13,16 +15,19 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home,
+      props: { menus },
     },
     {
       path: '/hello',
       name: 'Hello',
       component: HelloWorld,
+      props: { menus },
     },
     {
       path: '/account',
       name: 'Account',
       component: Account,
+      props: { menus },
     },
   ],
 });

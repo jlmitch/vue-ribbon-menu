@@ -1,12 +1,11 @@
 <template>
   <ul class="menu">
     <menu-item
-      v-for="(menuItem, index) in menuItems"
+      v-for="({ text, iconPath, url }, index) in menuItems"
       :key="index"
-      :text="menuItem.text"
-      :iconPath="menuItem.iconPath"
-      :url="menuItem.url"
-      @click="menuItem.onClick"
+      :text="text"
+      :iconPath="iconPath"
+      :url="url"
     />
     <div class="title">{{title}}</div>
   </ul>
@@ -16,7 +15,7 @@
   import MenuItem from '@/components/MenuItem';
 
   export default {
-    name: 'menu',
+    name: 'menu-component',
     components: { MenuItem },
     props: ['menuItems', 'title'],
   };

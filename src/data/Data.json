@@ -1,0 +1,47 @@
+[{
+   "title": "Tagging",
+   "menuItems": [
+     { "text": "Tag Account", "iconPath": "/static/icon.gif" },
+     { "text": "Untag Account", "iconPath": "/static/icon.gif" }
+   ]
+}, {
+   "title": "Trading",
+   "menuItems": [
+     { "text": "Generate Trades", "iconPath": "/static/icon.gif" },
+     { "text": "Global Liquidate", "iconPath": "/static/icon.gif" }
+   ]
+}, {
+   "title": "Performance",
+   "menuItems": [
+     { "text": "Perf Update", "iconPath": "/static/icon.gif" },
+     { "text": "Perf Lock", "iconPath": "/static/icon.gif" },
+     { "text": "Perf Unlock", "iconPath": "/static/icon.gif" }
+   ]
+}, {
+   "title": "'Account Mgmt'",
+   "menuItems": [
+       { "text": "Update Metrics", "iconPath": "/static/icon.gif" },
+       { "text": "Bulk Cash", "iconPath": "/static/icon.gif" },
+       { "text": "Bulk Change Product", "iconPath": "/static/icon.gif" },
+       { "text": "Bulk Change Model", "iconPath": "/static/icon.gif" },
+       { "text": "Bulk Approve", "iconPath": "/static/icon.gif" },
+       { "text": "Bulk Reject", "iconPath": "/static/icon.gif" },
+       { "text": "Bulk Replace IVs", "iconPath": "/static/icon.gif" },
+       { "text": "Set Purge Status", "iconPath": "/static/icon.gif" },
+       { "text": "Create", "iconPath": "/static/icon.gif" },
+       { "text": "Change Management", "iconPath": "/static/icon.gif" }
+   ]
+}, {
+   "title": "Reports",
+   "menuItems": [
+     { "text": "Run", "iconPath": "/static/icon.gif" },
+     { "text": "View", "iconPath": "/static/icon.gif" }
+   ]
+}, {
+    "title": "Pages",
+    "menuItems": [
+      { "text": "Account", "iconPath": "/static/icon.gif", "url": "/account" },
+      { "text": "HelloWorld", "iconPath": "/static/icon.gif", "url": "/hello" },
+      { "text": "Home", "iconPath": "/static/icon.gif", "url": "/" }
+    ]
+}]
