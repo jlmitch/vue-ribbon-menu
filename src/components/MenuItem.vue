@@ -10,11 +10,10 @@
     name: 'menu-item',
     props: ['iconPath', 'onClick', 'text', 'url'],
     methods: {
-      changeURL()
-      {
-        window.location = this.url
-      }
-    }
+      changeURL() {
+        window.location = this.url;
+      },
+    },
   };
 </script>
 

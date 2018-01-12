@@ -15,9 +15,10 @@
 
 <script>
   import MenuItem from '@/components/MenuItem';
+
   export default {
     name: 'menu',
-    components: {MenuItem},
+    components: { MenuItem },
     props: ['menuItems', 'title'],
   };
 </script>

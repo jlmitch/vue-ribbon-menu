@@ -10,6 +10,7 @@
 <script>
   import Menu from '@/components/Menu';
   import RibbonMenu from '@/components/RibbonMenu';
+
   const menus = [{
     title: 'Tagging',
     menuItems: [{
@@ -34,16 +35,16 @@
   }, {
     title: 'Account Mgmt',
     menuItems: [
-      {text: 'Update Metrics', iconPath: '/static/icon.gif', url:'metrics'},
-      {text: 'Bulk Cash', iconPath: '/static/icon.gif', url: 'cash'},
-      {text: 'Bulk Change Product', iconPath: '/static/icon.gif', url: 'change'},
-      {text: 'Bulk Change Model', iconPath: '/static/icon.gif', url: 'model'},
-      {text: 'Bulk Approve', iconPath: '/static/icon.gif', url: 'approve'},
-      {text: 'Bulk Reject', iconPath: '/static/icon.gif', url: 'reject'},
-      {text: 'Bulk Replace IVs', iconPath: '/static/icon.gif', url: 'replace'},
-      {text: 'Set Purge Status', iconPath: '/static/icon.gif', url: 'purge'},
-      {text: 'Create', iconPath: '/static/icon.gif', url: 'create'},
-      {text: 'Change Management', iconPath: '/static/icon.gif', url: 'change'},
+      { text: 'Update Metrics', iconPath: '/static/icon.gif', url: 'metrics' },
+      { text: 'Bulk Cash', iconPath: '/static/icon.gif', url: 'cash' },
+      { text: 'Bulk Change Product', iconPath: '/static/icon.gif', url: 'change' },
+      { text: 'Bulk Change Model', iconPath: '/static/icon.gif', url: 'model' },
+      { text: 'Bulk Approve', iconPath: '/static/icon.gif', url: 'approve' },
+      { text: 'Bulk Reject', iconPath: '/static/icon.gif', url: 'reject' },
+      { text: 'Bulk Replace IVs', iconPath: '/static/icon.gif', url: 'replace' },
+      { text: 'Set Purge Status', iconPath: '/static/icon.gif', url: 'purge' },
+      { text: 'Create', iconPath: '/static/icon.gif', url: 'create' },
+      { text: 'Change Management', iconPath: '/static/icon.gif', url: 'change' },
     ],
   }];
   export default {
@@ -52,6 +53,6 @@
       Menu,
       RibbonMenu,
     },
-    data: () => ({menus})
+    data: () => ({ menus }),
   };
 </script>
