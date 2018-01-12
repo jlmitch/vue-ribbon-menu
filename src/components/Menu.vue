@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <template>
   <ul class="menu">
     <menu-item
@@ -71,4 +72,3 @@
     bottom: 2px;
   }
 </style>
-
