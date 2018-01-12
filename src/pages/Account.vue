@@ -1,22 +1,15 @@
 <template>
-  <div>
-    <ribbon-menu :menus="menus"/>
-    <div>
-      Account Page
-    </div>
-  </div>
+  <page :menus="menus">
+    <div>Account Page</div>
+  </page>
 </template>
 
 <script>
-  import Menu from '@/components/Menu';
-  import RibbonMenu from '@/components/RibbonMenu';
+  import Page from '@/components/Page';
 
   export default {
     name: 'Example',
-    components: {
-      Menu,
-      RibbonMenu,
-    },
+    components: { Page },
     props: ['menus'],
   };
 </script>
