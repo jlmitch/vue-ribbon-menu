@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <template>
   <ul class="menu">
     <menu-item
@@ -36,18 +35,20 @@
     height: 100%;
     list-style: none;
     margin: 0 4px 0 0;
+    max-height: 100%;
     min-height: 100%;
     overflow: hidden;
     padding: 0 0 16px 0;
     position: relative;
     text-align: left;
     top: 0;
+    transition: max-height 1s;
     width: 150px;
   }
 
   ul.menu:hover {
     height: auto;
-    overflow: visible;
+    max-height: 100vh;
   }
 
   div.title {
