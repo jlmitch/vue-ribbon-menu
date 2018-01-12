@@ -10,22 +10,23 @@ import RibbonMenu from '@/components/RibbonMenu';
 
 const menus = [{
     title: 'Tagging',
-    menuItems: [{
-        iconPath: '/static/icon.gif',
-        text: 'Tag Account',
-    }],
+    menuItems: [
+      { text: 'Tag Account', iconPath: '/static/icon.gif' },
+      { text: 'Untag Account', iconPath: '/static/icon.gif' },
+    ],
 }, {
     title: 'Trading',
-    menuItems: [{
-        iconPath: '/static/icon.gif',
-        text: 'Generate Trades',
-    }],
+    menuItems: [
+      { text: 'Generate Trades', iconPath: '/static/icon.gif' },
+      { text: 'Global Liquidate', iconPath: '/static/icon.gif' },
+    ],
 }, {
     title: 'Performance',
-    menuItems: [{
-        iconPath: '/static/icon.gif',
-        text: 'Perf Update',
-    }],
+    menuItems: [
+      { text: 'Perf Update', iconPath: '/static/icon.gif' },
+      { text: 'Perf Lock', iconPath: '/static/icon.gif' },
+      { text: 'Perf Unlock', iconPath: '/static/icon.gif' },
+    ],
 }, {
     title: 'Account Mgmt',
     menuItems: [
@@ -39,6 +40,12 @@ const menus = [{
         { text: 'Set Purge Status', iconPath: '/static/icon.gif' },
         { text: 'Create', iconPath: '/static/icon.gif' },
         { text: 'Change Management', iconPath: '/static/icon.gif' },
+    ],
+}, {
+    title: 'Reports',
+    menuItems: [
+      { text: 'Run', iconPath: '/static/icon.gif' },
+      { text: 'View', iconPath: '/static/icon.gif' },
     ],
 }];
 
